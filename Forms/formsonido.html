@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonidos</title>
+</head>
+<body>
+    <form action="procesar.php" method="post" enctype="multipart/form-data">
+        <label for="nombre">Nombre del sonido</label>
+        <input type="text" name="nombre" id="nombre" required><br><br>
+
+        <label for="nombre">Formato del sonido</label>
+        <input type="text" name="formato" id="formato" required><br><br>
+
+        <label for="nombre">Seleccionar Archivo del sonido</label>
+        <input type="file" name="sonido" id="sonido" accept=".mp3, .wav" required><br><br>
+
+        <input type="submit" value="Subir Sonido">
+    </form>
+</body>
+</html>
